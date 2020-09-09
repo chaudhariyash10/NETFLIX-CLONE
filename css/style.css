@@ -43,20 +43,38 @@
 }
 
 .site-main .landing-area .background-image .landing-titles .titles > h3{
-  font: normal  26px/50px var(--Arial);
+  font: normal  25px/50px var(--Arial);
 }
 
 .site-main .landing-area .background-image .landing-titles .titles > h5{
-  font: normal  18px/50px var(--Arial);
+  font: normal  19px/50px var(--Arial);
 }
 
-.site-main .landing-area .background-image .landing-titles .input-box .email-input{
-  width: 32%;
-  padding: 20px 8px;
-}
 
 .site-main .landing-area .background-image .landing-titles .input-box{
-  padding-right: 3%;
+  padding-right: 5.5%;
+}
+
+.site-main .landing-area .background-image .landing-titles .input-box .email-input {
+  width: 35%;
+  padding: 20px 8px;
+  border: none;
+  margin: 0px;
+}
+
+.site-main .landing-area .background-image .landing-titles .input-box .get-started-button{
+  width: 20%;
+  padding: 20px 8px;
+  margin: 0px -5px;
+}
+
+.site-main .landing-area .background-image .landing-titles .input-box .get-started-button > span{
+  font: normal normal 25px var(--Arial);
+}
+
+.site-main .landing-area .background-image .landing-titles .input-box .get-started-button:focus ,.site-main .landing-area .background-image .landing-titles .input-box .email-input:focus{
+  outline: none;
+  animation: none;
 }
 
 /*-------------------------- Finished Landing Area----------------------*/

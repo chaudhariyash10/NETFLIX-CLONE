@@ -7,7 +7,6 @@ body{
 .button-primary{
     background: var(--primary-color);
     color: whitesmoke;
-    filter: brightness(120%);
 }
 
 .text-color{
