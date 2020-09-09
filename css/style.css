@@ -1,0 +1,62 @@
+/*Import Fonts from fonts.css*/
+@import url(./fonts.css);
+
+/* import partials for global classes and variables*/
+
+@import url(./partials/_globals.css);
+@import url(./partials/_variables.css);
+
+
+
+
+/*-------------------------- Started Landing Area----------------------*/
+/* .site-main .landing-area .background-image{
+  background: url(../img/Netflix-Background.jpg) no-repeat center/cover;
+  height: 46vw;
+} */
+
+.site-main .landing-area .background-image .main-logo{
+  padding: 1.5rem 3.5rem;
+  width: 38%;
+}
+
+.site-main .landing-area .background-image .button-1{
+  padding: 1.6% 5%;
+}
+
+.site-main .landing-area .background-image .button-1 > button{
+ width: 14%;
+ height: 80%;
+ font-weight: 500;
+ font-family: var(--Arial);
+ align-content: center;
+}
+
+.site-main .landing-area .background-image .landing-titles {
+  padding-top: 10%;
+  padding-right: 1%;
+  text-align: center;
+}
+
+.site-main .landing-area .background-image .landing-titles .titles > h1{
+  font: normal bold 64px/65px var(--Arial);
+}
+
+.site-main .landing-area .background-image .landing-titles .titles > h3{
+  font: normal  26px/50px var(--Arial);
+}
+
+.site-main .landing-area .background-image .landing-titles .titles > h5{
+  font: normal  18px/50px var(--Arial);
+}
+
+.site-main .landing-area .background-image .landing-titles .input-box .email-input{
+  width: 32%;
+  padding: 20px 8px;
+}
+
+.site-main .landing-area .background-image .landing-titles .input-box{
+  padding-right: 3%;
+}
+
+/*-------------------------- Finished Landing Area----------------------*/
