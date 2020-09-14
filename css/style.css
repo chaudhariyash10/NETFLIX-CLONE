@@ -9,11 +9,10 @@
 /*-------------------------- Started Landing Area----------------------*/
 
 .site-main .landing-area {
-  position: relative; 
+  position: relative;
 }
 
 .site-main .landing-area .landing-content {
-  
   height: 46vw;
   width: 100%;
   position: relative;
@@ -44,17 +43,18 @@
 }
 
 .site-main .landing-area .landing-content .landing-titles .titles > h1 {
-  font: normal bold 64px/65px var(--Arial);
+  font: normal bold 64px/60px var(--Arial);
 }
 
 .site-main .landing-area .landing-content .landing-titles .titles > h3 {
   font: normal 25px var(--Arial);
-  padding: 20px 0px;
+  padding: 18px 0px;
 }
 
 .site-main .landing-area .landing-content .landing-titles .titles > h5 {
   font: normal 19px var(--Arial);
-  padding: 15px 0px;
+  padding-bottom: 15px;
+  padding-top: 5px;
 }
 
 .site-main .landing-area .landing-content .input-box .email-input {
@@ -74,14 +74,23 @@
   border: none;
 }
 
-.site-main .landing-area .background-image {
-  background: url(../img/Netflix-Background.jpg);
-  height: 46vw;
+.site-main .landing-area .inset-border {
+  box-shadow: inset 0px 0px 100px 60px rgba(0, 0, 0, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 48.5vw;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
 
+.site-main .landing-area .background-image .image {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -100;
-  
+  filter: brightness(50%);
+  height: 48.5vw;
+  width: 100%;
+  z-index: -2;
 }
 /*-------------------------- Finished Landing Area----------------------*/

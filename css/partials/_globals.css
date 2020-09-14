@@ -2,6 +2,7 @@ body{
   background-color: #000000;
   width: 100%;
   overflow-x: hidden;
+  font-smooth: antialised;
 }
 
 .button-primary{
