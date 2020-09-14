@@ -74,6 +74,17 @@
   border: none;
 }
 
+.site-main .landing-area .landing-content .input-box .email-input:focus{
+  outline: none;
+}
+
+.site-main .landing-area .landing-content .input-box .email-input:focus::-webkit-input-placeholder,
+.site-main .landing-area .landing-content .input-box .email-input:active::-webkit-input-placeholder{
+  position: relative;
+  font-size: 14px;
+  top: -25px;
+}
+
 .site-main .landing-area .inset-border {
   box-shadow: inset 0px 0px 100px 60px rgba(0, 0, 0, 0.9);
   position: absolute;
