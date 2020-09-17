@@ -74,15 +74,18 @@
   border: none;
 }
 
+
 .site-main .landing-area .landing-content .input-box .email-input:focus{
   outline: none;
 }
 
-.site-main .landing-area .landing-content .input-box .email-input:focus::-webkit-input-placeholder,
-.site-main .landing-area .landing-content .input-box .email-input:active::-webkit-input-placeholder{
+.site-main .landing-area .landing-content .input-box .email-input:focus::placeholder,
+.site-main .landing-area .landing-content .input-box .email-input:focus::placeholder::after,
+.site-main .landing-area .landing-content .input-box .email-input:active::placeholder{
   position: relative;
   font-size: 14px;
   top: -25px;
+  content: attr(data-placeholder);
 }
 
 .site-main .landing-area .inset-border {

@@ -13,3 +13,8 @@ body{
 .text-color{
     color: whitesmoke;
 }
+.landing-underline{
+  background-color: #5a57571f;
+  height: 100vw;
+  width: 100%;
+}
