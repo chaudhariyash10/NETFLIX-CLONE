@@ -1,3 +1,5 @@
+@import url(./fonts.css);
+
 body{
   background-color: #000000;
   width: 100%;
@@ -14,7 +16,7 @@ body{
 }
 
 .margin{
-  height: 4vw;
+  height: 2.5vw;
   border-style: none !important;
 }
 

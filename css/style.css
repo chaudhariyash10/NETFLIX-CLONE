@@ -113,9 +113,20 @@
 .site-main .more-info .kids-img {
   margin-left: 14vw;
   margin-top: 4.5vw;
-  margin-bottom: 5vw;
+  margin-bottom: 2vw;
   height: 25vw;
 
 }
+.site-main .more-info .more-info-titles{
+  margin-top: 12vw;
+}
 
+.site-main .more-info .more-info-titles .h1{
+  font: normal 700 50px/50px var(--Arial);
+  margin-bottom: 1vw;
+}
+
+.site-main .more-info .more-info-titles .h3{
+  font: normal 200 28px/30px var(--Arial);
+}
 /*-------------------------- Finished More Info Area----------------------*/
