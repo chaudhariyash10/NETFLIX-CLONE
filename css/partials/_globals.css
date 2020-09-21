@@ -2,7 +2,6 @@ body{
   background-color: #000000;
   width: 100%;
   overflow-x: hidden;
-  font-smooth: antialised;
 }
 
 .button-primary{
@@ -13,8 +12,16 @@ body{
 .text-color{
     color: whitesmoke;
 }
-.landing-underline{
-  background-color: #5a57571f;
-  height: 100vw;
-  width: 100%;
+
+.margin{
+  height: 4vw;
+  border-style: none !important;
 }
+
+.border{
+  height: 0.5vw;
+  width: 100%;
+  background-color: rgb(71, 69, 69);
+  border-style: none !important;
+}
+

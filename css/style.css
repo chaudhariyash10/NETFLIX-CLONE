@@ -108,3 +108,14 @@
   z-index: -2;
 }
 /*-------------------------- Finished Landing Area----------------------*/
+/*-------------------------- Started More Info Area----------------------*/
+
+.site-main .more-info .kids-img {
+  margin-left: 14vw;
+  margin-top: 4.5vw;
+  margin-bottom: 5vw;
+  height: 25vw;
+
+}
+
+/*-------------------------- Finished More Info Area----------------------*/
