@@ -121,6 +121,14 @@
 /*-------------------------- Finished Landing Area----------------------*/
 /*-------------------------- Started More Info Area----------------------*/
 
+.site-main .more-info .more-info-titles .h1 {
+  font: normal 700 50px/55px var(--Arial);
+  margin-bottom: 1vw;
+}
+
+.site-main .more-info .more-info-titles .h3 {
+  font: normal 200 28px/28px var(--Arial);
+}
 .site-main .more-info .kids-img {
   margin-left: 14vw;
   margin-top: 4.5vw;
@@ -131,20 +139,39 @@
   margin-top: 12vw;
 }
 
-.site-main .more-info .tv-section .more-info-titles{
+.site-main .more-info .tv-section .more-info-titles {
   margin-top: 10vw;
   margin-left: 13vw;
 }
 
-.site-main .more-info .tv-section .tv{
+.site-main .more-info .tv-section .tv {
   height: 30vw;
 }
-.site-main .more-info .more-info-titles .h1 {
-  font: normal 700 50px/50px var(--Arial);
-  margin-bottom: 1vw;
+
+.site-main .more-info .download-shows .download-shows-img {
+  padding: 0%;
+  margin-left: 18%;
+  margin-top: 7%;
+  height: 25vw;
+}
+.site-main .more-info .download-shows .more-info-titles {
+  margin-top: 21%;
+  margin-left: -3%;
+  padding-right: 25%;
 }
 
-.site-main .more-info .more-info-titles .h3 {
-  font: normal 200 28px/30px var(--Arial);
+.site-main .more-info .watch-everywhere .more-info-titles{
+  margin-left: 27%;
+  margin-top: 24%;
+}
+
+.site-main .more-info .watch-everywhere .watch-everywhere-img{
+  margin-top: 10%;
+  margin-left: 10%;
+  height: 25vw;
+}
+
+.site-main .more-info .watch-everywhere .more-info-titles .h3{
+  font: normal 200 28px/35px var(--Arial);
 }
 /*-------------------------- Finished More Info Area----------------------*/
