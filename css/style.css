@@ -175,4 +175,16 @@
 .site-main .more-info .watch-everywhere .more-info-titles .h3{
   font: normal 200 28px/35px var(--Arial);
 }
+
+.site-main .more-info .frequently-asked{
+  align-content: center;
+}
+
+.site-main .more-info .frequently-asked .frequent-title {
+  color: whitesmoke;
+  font: normal 700 50px/55px var(--Arial);
+  margin-bottom: 1vw;
+  margin-top: 3.5vw;
+  text-align: center;
+}
 /*-------------------------- Finished More Info Area----------------------*/
