@@ -4,31 +4,24 @@ class Que extends React.Component {
   }
   render() {
     const id = this.props.id;
-    return <h2>{this.props.content}</h2>;
+    return <h2>{this.props.question}</h2>;
   }
 }
 
-ReactDOM.render(
-  <Que content="What is Netflix ?" />,
-  document.getElementById("que1")
+const questions = [
+  "What is Netflix ?",
+  "How much does Netflix cost ?",
+  "Where can I watch?",
+  "How do I cancel?",
+  "What can I watch on Netflix ?",
+  "Is Netflix good for kids ?"
+];
+
+const ids = [1, 2, 3, 4, 5, 6];
+
+for (let i = 0; i < 6; i++){
+  ReactDOM.render(
+  <Que question={questions[i] }/>,
+  document.getElementById(`que${ids[i]}`)
 );
-ReactDOM.render(
-  <Que content="How much does Netflix cost ?" />,
-  document.getElementById("que2")
-);
-ReactDOM.render(
-  <Que content="Where can I watch?" />,
-  document.getElementById("que3")
-);
-ReactDOM.render(
-  <Que content="How do I cancel?" />,
-  document.getElementById("que4")
-);
-ReactDOM.render(
-  <Que content="What can I watch on Netflix ?" />,
-  document.getElementById("que5")
-);
-ReactDOM.render(
-  <Que content="Is Netflix good for kids ?" />,
-  document.getElementById("que6")
-);
+}
