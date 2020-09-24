@@ -182,9 +182,24 @@
 
 .site-main .more-info .frequently-asked .frequent-title {
   color: whitesmoke;
-  font: normal 700 50px/55px var(--Arial);
+  font: normal 700 45px/45px var(--Arial);
   margin-bottom: 1vw;
   margin-top: 3.5vw;
   text-align: center;
+}
+.site-main .more-info .frequently-asked .que {
+  
+}
+.site-main .more-info .frequently-asked .que .faqQue{
+  width: 55em;
+  background-color: rgb(71, 69, 69);
+  margin: auto;
+  padding-top: .5em;
+  padding-left: .5em;
+}
+
+.site-main .more-info .frequently-asked .que .faqQue > h2{
+  font: normal 400 2em/2em var(--Arial);
+  color: whitesmoke;
 }
 /*-------------------------- Finished More Info Area----------------------*/

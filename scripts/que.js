@@ -1,17 +1,34 @@
-import style from '../css/faq.module.css';
-
-class Que extends React.Component{
-  constructor({props}) {
+class Que extends React.Component {
+  constructor({ props }) {
     super(props);
   }
   render() {
-    const id = this.props.id; 
-    return (
-      <div className={style.queTemplate}>
-        <h2>{this.props.content}</h2>
-      </div>
-    )
+    const id = this.props.id;
+    return <h2>{this.props.content}</h2>;
   }
 }
 
-ReactDOM.render(<Que content="What is Netflix?"/>, document.getElementById('que1'));
+ReactDOM.render(
+  <Que content="What is Netflix ?" />,
+  document.getElementById("que1")
+);
+ReactDOM.render(
+  <Que content="How much does Netflix cost ?" />,
+  document.getElementById("que2")
+);
+ReactDOM.render(
+  <Que content="Where can I watch?" />,
+  document.getElementById("que3")
+);
+ReactDOM.render(
+  <Que content="How do I cancel?" />,
+  document.getElementById("que4")
+);
+ReactDOM.render(
+  <Que content="What can I watch on Netflix ?" />,
+  document.getElementById("que5")
+);
+ReactDOM.render(
+  <Que content="Is Netflix good for kids ?" />,
+  document.getElementById("que6")
+);
