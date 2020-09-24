@@ -1,0 +1,37 @@
+{
+  "name": "netflix-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "watch": "npm-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaudhariyash10/NETFLIX-CLONE.git"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "js,jsx"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaudhariyash10/NETFLIX-CLONE/issues"
+  },
+  "homepage": "https://github.com/chaudhariyash10/NETFLIX-CLONE#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-react": "^7.10.4"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.11.5",
+    "npm-watch": "^0.7.0"
+  }
+}
