@@ -1,0 +1,11 @@
+
+@import url(./partials/_globals.css);
+@import url(./partials/_variables.css);
+
+,queTemplate{
+    background-color: rgb(71, 69, 69);
+}
+
+.queTitle{
+    font: normal 300 10em/10em var(--Arial);
+}
