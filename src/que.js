@@ -1,4 +1,4 @@
-
+import React from 'react';
 class Que extends React.Component {
   constructor({ props }) {
     super(props);

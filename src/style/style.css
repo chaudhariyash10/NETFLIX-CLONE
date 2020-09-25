@@ -2,44 +2,9 @@
 
 /* import partials for global classes and variables*/
 
-body{
-  background-color: #000000;
-  width: 100%;
-  overflow-x: hidden;
-}
-
-.button-primary{
-    background: var(--primary-color);
-    color: whitesmoke;
-}
-
-.text-color{
-    color: whitesmoke;
-}
-
-.margin{
-  height: 2.5vw;
-  border-style: none !important;
-}
-
-.border{
-  height: 0.5vw;
-  width: 100%;
-  background-color: rgb(71, 69, 69);
-  border-style: none !important;
-}
-
-
-
+@import "./_global.css";
 /*-------------------------- Varibles of CSS----------------------*/
-:root{
-    /*Fonts*/
-    --Arial: 'Arial',sans-serif;
-
-    /*Colors*/
-
-    --primary-color: #E50914;
-}
+@import "./_variables.css";
 /*-------------------------- Started Landing Area----------------------*/
 
 .site-main .landing-area {
