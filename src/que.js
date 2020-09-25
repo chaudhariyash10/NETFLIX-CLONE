@@ -1,3 +1,4 @@
+
 class Que extends React.Component {
   constructor({ props }) {
     super(props);
@@ -14,7 +15,7 @@ const questions = [
   "Where can I watch?",
   "How do I cancel?",
   "What can I watch on Netflix ?",
-  "Is Netflix good for kids ?"
+  "Is Netflix good for kids ?",
 ];
 
 const ids = [1, 2, 3, 4, 5, 6];
