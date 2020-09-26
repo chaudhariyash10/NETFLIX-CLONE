@@ -199,7 +199,8 @@
 }
 
 .site-main .more-info .frequently-asked .que .faqQue > button :focus{
-  outline: none;
-  border: none;
+  outline: 0 !important;
+  border: 0 !important;
+  box-shadow:0 !important;
 }
 /*-------------------------- Finished More Info Area----------------------*/
