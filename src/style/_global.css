@@ -1,4 +1,4 @@
-@import "./_variables.css";
+
 
 body{
   background-color: #000000;
@@ -32,4 +32,8 @@ body{
 .ans{
   color: whitesmoke;
   font: normal 400 30px/30px var(--Arial);
+}
+
+.center-elements{
+  text-align: center;
 }

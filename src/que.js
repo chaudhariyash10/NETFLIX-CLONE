@@ -9,26 +9,29 @@ class Que extends React.Component {
   }
 
   showAns() {
-    
-    this.setState(state => ({
-      state: !state.isAns
+    this.setState((state) => ({
+      isAns: !state.isAns,
     }));
-   
   }
 
   render() {
     let division;
-    if (this.state.ans) {
+    if (this.state.isAns) {
       division = (
-        <div>
-          <button onClick={this.showAns}>{this.props.question}</button>
-          <h2>{this.props.answer}</h2>
+        <div className="question-container">
+          <button className="question" onClick={this.showAns}>
+            {this.props.question}
+          </button>
+
+          <h2 className="answer">{this.props.answer}</h2>
         </div>
       );
     } else {
       division = (
-        <div>
-          <button onClick={this.showAns}>{this.props.question}</button>
+        <div className="question-container">
+          <button className="question" onClick={this.showAns}>
+            {this.props.question}
+          </button>
         </div>
       );
     }

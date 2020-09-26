@@ -174,7 +174,6 @@
 }
 
 .site-main .more-info .frequently-asked .frequent-title {
-  
   color: whitesmoke;
   font: normal 700 50px/50px var(--Arial);
   margin-bottom: 3.5vw;
@@ -182,11 +181,8 @@
   text-align: center;
 }
 
-.site-main .more-info .frequently-asked .que .faqQue {
-  text-align: center;
-}
-
-.site-main .more-info .frequently-asked .que .faqQue > button {
+.site-main .more-info .frequently-asked .faqQue .question,
+.site-main .more-info .frequently-asked .faqQue .answer {
   padding-left: 30px;
   width: 52vw;
   text-align: left;
@@ -198,9 +194,17 @@
   color: whitesmoke;
 }
 
-.site-main .more-info .frequently-asked .que .faqQue > button :focus{
+.site-main .more-info .frequently-asked .faqQue .answer {
+  margin-left: 23.7%;
+  text-align: left;
+  font: normal 400 28px/35px var(--Arial);
+  margin-top: -0.09%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.site-main .more-info .frequently-asked .faqQue .question :focus {
   outline: 0 !important;
   border: 0 !important;
-  box-shadow:0 !important;
+  box-shadow: 0 !important;
 }
 /*-------------------------- Finished More Info Area----------------------*/
