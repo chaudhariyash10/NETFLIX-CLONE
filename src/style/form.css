@@ -1,0 +1,41 @@
+.wrapper {
+  padding-top: 0%;
+  padding-right: 1%;
+  text-align: center;
+}
+
+.wrapper .input-box > h5 {
+  font: normal 19px var(--Arial);
+  color: whitesmoke;
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+.wrapper .input-box .email-input {
+  display: inline-block;
+  width: 500px;
+  height: 70px;
+}
+
+.wrapper .input-box .get-started-button {
+  display: inline-block;
+  height: 70px;
+  width: 300px;
+  vertical-align: top;
+  font-size: 2rem;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+}
+
+.wrapper.input-box .email-input:focus {
+  outline: none;
+}
+
+.wrapper .input-box .email-input:focus::placeholder,
+.wrapper .input-box .email-input:focus::placeholder::after,
+.wrapper .input-box .email-input:active::placeholder {
+  position: relative;
+  font-size: 14px;
+  top: -25px;
+  content: attr(data-placeholder);
+}
