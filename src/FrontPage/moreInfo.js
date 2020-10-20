@@ -19,7 +19,6 @@ class MoreInfo extends React.Component {
         <WatchEverywhere />
         <WhiteMargin />
         <FAQs />
-        
         <FormComponent/>
         <WhiteMargin/>
       </div>

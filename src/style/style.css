@@ -146,6 +146,7 @@
   margin-top: 0.3%;
   margin-bottom: 0.3%;
   border: none;
+  outline: none;
   background-color: rgb(71, 69, 69);
   font: normal 400 28px/70px var(--Arial);
   color: whitesmoke;
@@ -159,9 +160,28 @@
   padding-top: 20px;
   padding-bottom: 10px;
 }
-.site-main .more-info .frequently-asked .faqQue .question :focus {
-  outline: 0 !important;
-  border: 0 !important;
-  box-shadow: 0 !important;
+.site-main .more-info .frequently-asked .faqQue .question-container > button :focus, 
+.site-main .more-info .frequently-asked .faqQue .question-container > button :active{
+  outline: none;
+  border: none;
+  box-shadow: none;
 }
 /*-------------------------- Finished More Info Area----------------------*/
+/*========================== Started Footer===============================*/
+
+.site-main .footer-class{
+  margin: 4% 0% 4% 20%;
+  color:  rgb(100, 96, 96);
+}
+.site-main .footer-class .grid{
+  margin-left: 1%;
+  margin-top: 3%;
+  width: 65%;
+}
+
+.site-main .footer-class .grid .cell{
+  font:normal  200 14px/17px var(--Arial);
+  padding: 0.5% 0.5% 1% .5%;
+  color:  rgb(100, 96, 96);
+}
+/*========================== Finished Footer===============================*/
